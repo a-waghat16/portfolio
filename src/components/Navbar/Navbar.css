@@ -1,0 +1,93 @@
+.navbar {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 40px;
+}
+
+.logo {
+  margin-left: 30px;
+}
+
+.nav-link {
+  text-decoration: none;
+  padding: 10px;
+  margin-right: 10px;
+  font-weight: 700;
+  font-size: 18px;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 4px;
+}
+
+.nav-link::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 7px;
+  width: 0;
+  height: 3px;
+  background-color: #8e8d8a;
+  transition: width 0.2s ease-out;
+}
+
+.nav-link:hover::before {
+  width: 80%;
+  transition: width 0.25s ease-in;
+}
+
+.overlay-total {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  left:0;
+  top: 0;
+  
+}
+
+.about-overlay {
+  width: 90%;
+  top: 0;
+  box-shadow: 0 20px 80px rgba(0, 0, 0, 0.3);
+}
+
+.about-overlay h2 {
+  font-size: 32px;
+}
+
+.about-overlay h4 {
+  font-size: 18px;
+}
+
+.about-content {
+  background-color: #eae7dc;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.about-cont {
+  width: 60%;
+}
+
+.language-logo {
+  width: 17%;
+  margin: 20px;
+  padding: 40px 0;
+}
+
+.close {
+  cursor: pointer;
+  font-size: 50px;
+}
+
+@media (max-width: 500px) {
+  .nav-link {
+    font-size: 16px;
+  }
+
+  .navbar {
+    margin: 10px 20px;
+  }
+}

@@ -1,0 +1,52 @@
+.hero {
+    max-width: 500px;
+    margin-left: 150px;
+    margin-bottom: 70px;
+}
+
+h1 {
+    font-size: 76px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.red {
+    color: #e85a4f;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.hero-p {
+    margin-bottom: 10px;
+    font-size: 24px;
+    line-height: 2
+}
+
+.icon {
+    background-color: #e85a4f;
+    margin-right: 15px;
+    padding: 8px;
+    border-radius: 50%;
+    cursor: pointer
+}
+
+.icon:hover {
+    transform: scale(1.2);
+}
+
+@media (max-width: 800px) {
+    .hero {
+        margin-left: 50px;
+        margin-right: 10px;
+    }
+
+    h1 {
+        font-size: 60px;
+    }
+
+    .hero p {
+        font-size: 18px;
+    }
+}
