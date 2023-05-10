@@ -41,9 +41,8 @@
   display: flex;
   justify-content: center;
   width: 100%;
-  left:0;
+  left: 0;
   top: 0;
-  
 }
 
 .about-overlay {
@@ -89,5 +88,14 @@
 
   .navbar {
     margin: 10px 20px;
+  }
+
+  .contact {
+    display: none;
+  }
+
+  .logo {
+    margin: 0;
+    width: 50px;
   }
 }

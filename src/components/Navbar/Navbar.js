@@ -38,7 +38,7 @@ const Navbar = () => {
           </a>
         </li>
         <li>
-          <a className="nav-link" href="/#" onClick={handleClick}>
+          <a className="nav-link contact" href="/#" onClick={handleClick}>
             Contact
           </a>
         </li>
